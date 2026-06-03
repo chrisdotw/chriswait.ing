@@ -39,17 +39,7 @@ interests:
   - SharePoint and Collaboration
   - Infrastructure and User Support
 
-education:
-  - area: 'Microsoft 365 Certified: Endpoint Administrator Associate (MD-102)'
-    institution: Microsoft
-    end: 2026-06-01
-    summary: |
-      Earned June 2026.
-  - area: 'Microsoft 365 Certified: Fundamentals (MS-900)'
-    institution: Microsoft
-    end: 2024-01-01
-    summary: |
-      Earned 2024.
+education: []
 
 experience:
   - role: IT Support Engineer / Microsoft 365 Administrator
@@ -91,4 +81,12 @@ languages:
     level: expert
     label: Native
 
-awards: []
+awards:
+  - title: 'Microsoft 365 Certified: Endpoint Administrator Associate (MD-102)'
+    awarder: Microsoft
+    date: '2026-06-01'
+    summary: 'Earned June 2026.'
+  - title: 'Microsoft 365 Certified: Fundamentals (MS-900)'
+    awarder: Microsoft
+    date: '2024-01-01'
+    summary: 'Earned 2024.'
