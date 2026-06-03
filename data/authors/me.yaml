@@ -64,27 +64,8 @@ experience:
     end: 2022-10-01
     summary: |
       I supported users and Windows devices within a large enterprise environment, resolving desktop and Microsoft application issues through structured service processes. This strengthened my experience with endpoint tools, practical troubleshooting and reliable end-user support at scale.
-skills:
-  - name: Microsoft 365
-    items:
-      - label: Microsoft 365 Administration
-        level: 5
-      - label: SharePoint Online
-        level: expert
-      - label: Microsoft Teams and Teams Phone
-        level: 4
-      - label: Exchange Online
-        level: 3
-  - name: Endpoint and Security
-    items:
-      - label: Microsoft Intune
-        level: 4
-      - label: Windows Endpoints
-        level: 4
-      - label: Entra ID and Access Controls
-        level: 5
-      - label: Endpoint Troubleshooting
-        level: 5
+
+skills: []
 
 languages:
   - name: English
