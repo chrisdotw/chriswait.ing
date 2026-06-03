@@ -79,58 +79,58 @@ sections:
           items:
             - name: Microsoft 365 Administration
               icon: hero/cloud
-              level: 90
+              level: advanced
             - name: SharePoint Online
               icon: hero/document-text
-              level: 85
+              level: advanced
             - name: Microsoft Teams & Teams Phone
               icon: hero/user-group
-              level: 85
+              level: advanced
             - name: Exchange Online
               icon: hero/envelope
-              level: 75
+              level: intermediate
         - name: Endpoint Management
           items:
             - name: Microsoft Intune
               icon: hero/device-phone-mobile
-              level: 85
+              level: advanced
             - name: Windows 11 & Device Lifecycle
               icon: hero/computer-desktop
-              level: 90
+              level: advanced
             - name: Windows Autopilot
               icon: hero/rocket-launch
-              level: 70
+              level: intermediate
             - name: BitLocker & Windows LAPS
               icon: hero/shield-check
-              level: 75
+              level: intermediate
         - name: Identity & Security
           items:
             - name: Entra ID
               icon: hero/key
-              level: 80
+              level: advanced
             - name: MFA & Conditional Access
               icon: hero/lock-closed
-              level: 75
+              level: intermediate
             - name: Endpoint Security
               icon: hero/shield-check
-              level: 75
+              level: intermediate
             - name: SPF, DKIM & DMARC
               icon: hero/envelope
-              level: 70
+              level: intermediate
         - name: Infrastructure & Operations
           items:
             - name: Networking & Connectivity
               icon: hero/wifi
-              level: 75
+              level: intermediate
             - name: DNS & Domains
               icon: hero/globe-alt
-              level: 75
+              level: intermediate
             - name: PowerShell
               icon: hero/command-line
-              level: 60
+              level: intermediate
             - name: Documentation & User Support
               icon: hero/book-open
-              level: 90
+              level: advanced
     design:
       style: grid
       show_levels: true
@@ -144,57 +144,26 @@ sections:
   - block: resume-experience
     id: experience
     content:
+      username: me
       title: "Experience"
-      date_format: Jan 2006
-      items:
-        - title: IT Support Engineer / Microsoft 365 Administrator
-          company: Managed Services Environment
-          company_url: ''
-          company_logo: ''
-          location: Melbourne, Australia
-          date_start: '2022-10-01'
-          date_end: ''
-          description: |2-
-            * Primary onsite IT resource supporting a distributed nonprofit user environment across day-to-day support, administration and technology projects.
-            * Administer Microsoft 365 services including Exchange Online, SharePoint Online, Teams, Teams Phone, Intune and Entra ID.
-            * Support a hybrid environment spanning cloud services, endpoints, onsite infrastructure and network connectivity.
-            * Contribute to endpoint management initiatives including Intune deployment, compliance policies, BitLocker, Windows LAPS and device lifecycle management.
-            * Support meeting room technology, resource accounts, call queues and auto attendants.
-            * Coordinate with vendors and remote technical teams, produce documentation and provide practical guidance to end users.
-        - title: Desktop Support Analyst
-          company: Enterprise Support Environment
-          company_url: ''
-          company_logo: ''
-          location: Melbourne, Australia
-          date_start: '2022-05-01'
-          date_end: '2022-10-01'
-          description: |2-
-            * Provided Level 1 and Level 2 desktop support within a large enterprise environment.
-            * Supported Windows endpoints and Microsoft applications using endpoint management and incident management tools.
-        - title: Operations and IT Support
-          company: Logistics Environment
-          company_url: ''
-          company_logo: ''
-          location: Melbourne, Australia
-          date_start: '2015-01-01'
-          date_end: '2021-09-01'
-          description: |2-
-            * Combined operational responsibilities with practical technology support in a busy logistics setting.
-        - title: Field Network Technician
-          company: Telecommunications Environment
-          company_url: ''
-          company_logo: ''
-          location: Melbourne, Australia
-          date_start: '2014-01-01'
-          date_end: '2015-01-01'
-          description: |2-
-            * Worked with field network services and customer connectivity in a telecommunications environment.
     design:
-      columns: '1'
       background:
         color:
           light: "#ffffff"
           dark: "#0b1525"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+
+  - block: resume-awards
+    id: certifications
+    content:
+      username: me
+      title: "Certifications"
+    design:
+      background:
+        color:
+          light: "#f1f5f9"
+          dark: "#07111f"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
@@ -215,8 +184,8 @@ sections:
       columns: 3
       background:
         color:
-          light: "#f1f5f9"
-          dark: "#07111f"
+          light: "#ffffff"
+          dark: "#0b1525"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
@@ -233,8 +202,8 @@ sections:
       columns: '1'
       background:
         color:
-          light: "#ffffff"
-          dark: "#0b1525"
+          light: "#f1f5f9"
+          dark: "#07111f"
       spacing:
         padding: ["4rem", "0", "5rem", "0"]
 ---
