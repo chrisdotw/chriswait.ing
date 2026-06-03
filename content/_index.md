@@ -154,7 +154,7 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
-  - block: resume-education
+  - block: resume-awards
     id: certifications
     content:
       username: me
