@@ -79,7 +79,7 @@ sections:
           items:
             - name: Microsoft 365 Administration
               icon: hero/cloud
-              level: advanced
+              level: great
             - name: SharePoint Online
               icon: hero/document-text
               level: advanced
@@ -154,18 +154,6 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
-  - block: resume-experience
-    id: education
-    content:
-      username: me
-      title: "Certifications"
-    design:
-      background:
-        color:
-          light: "#f1f5f9"
-          dark: "#07111f"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
 
   - block: collection
     id: blog

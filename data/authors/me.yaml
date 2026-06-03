@@ -68,9 +68,9 @@ skills:
   - name: Microsoft 365
     items:
       - label: Microsoft 365 Administration
-        level: 4
+        level: 5
       - label: SharePoint Online
-        level: 4
+        level: 1
       - label: Microsoft Teams and Teams Phone
         level: 4
       - label: Exchange Online
@@ -82,7 +82,7 @@ skills:
       - label: Windows Endpoints
         level: 4
       - label: Entra ID and Access Controls
-        level: 3
+        level: 5
       - label: Endpoint Troubleshooting
         level: 5
 
