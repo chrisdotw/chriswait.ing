@@ -40,65 +40,55 @@ interests:
   - SharePoint and Collaboration
   - Infrastructure and User Support
 
-education: []
-
+education:
+  - degree: B.S. Computer Science
+    institution: State University
+    start: 2015-09-01
+    end: 2019-05-31
+    summary: |
+      Focus on software engineering and distributed systems.
+      Senior project on distributed caching systems.
+    button:
+      text: View Project
+      url: https://github.com/alexjohnson/senior-project
+      icon: brands/github
 experience:
   - role: IT Support Engineer / Microsoft 365 Administrator
     org: Managed Services Environment
     start: 2022-10-01
     summary: |
-      Primary onsite IT resource supporting a distributed nonprofit user environment across day-to-day support, administration and technology projects.
-
-      - Administer Microsoft 365 services including Exchange Online, SharePoint Online, Teams, Teams Phone, Intune and Entra ID.
-      - Support a hybrid environment spanning cloud services, endpoints, onsite infrastructure and network connectivity.
-      - Contribute to endpoint management initiatives including Intune deployment, compliance policies, BitLocker, Windows LAPS and device lifecycle management.
-      - Support meeting room technology, resource accounts, call queues and auto attendants.
-      - Coordinate with vendors and remote technical teams, produce documentation and provide practical guidance to end users.
+       I provide onsite IT support and Microsoft 365 administration for a distributed nonprofit user environment. My work covers Intune, Entra ID, SharePoint Online, Exchange Online, Microsoft Teams, endpoint management and security controls. I also contribute to device rollout projects, meeting-room technology, telecommunications coordination, vendor engagement and clear technical documentation for users and support teams.
   - role: Desktop Support Analyst
     org: Enterprise Support Environment
     start: 2022-05-01
     end: 2022-10-01
     summary: |
-      Provided Level 1 and Level 2 desktop support within a large enterprise environment.
-
-      - Supported Windows endpoints and Microsoft applications.
-      - Worked with endpoint management and incident management tooling.
-      - Assisted users with day-to-day desktop issues in a structured support environment.
-
+      I supported users and Windows devices within a large enterprise environment, resolving desktop and Microsoft application issues through structured service processes. This strengthened my experience with endpoint tools, practical troubleshooting and reliable end-user support at scale.
 skills:
   - name: Microsoft 365
     items:
       - label: Microsoft 365 Administration
-        level: advanced
+        level: 4
       - label: SharePoint Online
-        level: advanced
+        level: 4
       - label: Microsoft Teams and Teams Phone
-        level: advanced
+        level: 4
       - label: Exchange Online
-        level: intermediate
+        level: 3
   - name: Endpoint and Security
     items:
       - label: Microsoft Intune
-        level: advanced
+        level: 4
       - label: Windows Endpoints
-        level: advanced
+        level: 4
       - label: Entra ID and Access Controls
-        level: intermediate
+        level: 3
       - label: Endpoint Troubleshooting
-        level: expert
+        level: 5
 
 languages:
   - name: English
     level: expert
     label: Native
 
-awards:
-  - title: 'Microsoft 365 Certified: Endpoint Administrator Associate (MD-102)'
-    awarder: Microsoft
-    date: '2026-06-01'
-    summary: |
-      Awarded June 2026.
-  - title: 'Microsoft 365 Certified: Fundamentals (MS-900)'
-    awarder: Microsoft
-    summary: |
-      Achieved in 2024.
+awards: []
