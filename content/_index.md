@@ -1,12 +1,10 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ''
-summary: ''
-date: 2026-01-05
+summary: 'Microsoft 365, endpoint management and practical IT projects by Chris Waiting.'
+date: 2026-06-03
 type: landing
 
 sections:
-  # Developer Hero - Gradient background with name, role, social, and CTAs
   - block: dev-hero
     id: hero
     content:
@@ -16,17 +14,17 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I work with"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "Microsoft 365"
+          - "Intune and endpoint management"
+          - "SharePoint and collaboration"
+          - "practical IT solutions"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: View My Work
+        - text: View My Projects
           url: "#projects"
           icon: arrow-down
         - text: Get In Touch
@@ -38,160 +36,131 @@ sections:
       animations: true
       background:
         color:
-          light: "#fafafa"
-          dark: "#0a0a0f"
+          light: "#f8fafc"
+          dark: "#07111f"
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
-  
-  # Filterable Portfolio - Alpine.js powered project filtering
+
   - block: portfolio
     id: projects
     content:
-      title: "Featured Projects"
-      subtitle: "A selection of my recent work"
+      title: "Projects & Labs"
+      subtitle: "Practical Microsoft 365, endpoint management and infrastructure work"
       count: 0
       filters:
         folders:
           - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
-      default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
+        buttons:
+          - name: All
+            tag: '*'
+          - name: Microsoft 365
+            tag: Microsoft 365
+          - name: Intune
+            tag: Intune
+          - name: SharePoint
+            tag: SharePoint
+          - name: Collaboration
+            tag: Collaboration
+          - name: Lab
+            tag: Lab
+        default_button_index: 0
     design:
       columns: 3
       background:
         color:
           light: "#ffffff"
-          dark: "#0d0d12"
+          dark: "#0b1525"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Visual Tech Stack - Icons organized by category
+
   - block: tech-stack
     id: skills
     content:
-      title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      title: "Skills & Technologies"
+      subtitle: "Tools I use across support, administration and endpoint management"
       categories:
-        - name: Languages
+        - name: Microsoft Cloud
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
-            - name: Python
-              icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+            - name: Microsoft 365
+              icon: hero/cloud
+            - name: Entra ID
+              icon: hero/key
+            - name: Exchange Online
+              icon: hero/envelope
+            - name: SharePoint Online
+              icon: hero/document-text
+        - name: Endpoint Management
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
+            - name: Microsoft Intune
+              icon: hero/device-phone-mobile
+            - name: Windows 11
+              icon: hero/computer-desktop
+            - name: Windows Autopilot
+              icon: hero/rocket-launch
+            - name: Endpoint Security
+              icon: hero/shield-check
+        - name: Collaboration & Support
           items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: Microsoft Teams
+              icon: hero/user-group
+            - name: Teams Rooms
+              icon: hero/video-camera
+            - name: DNS & Domains
+              icon: hero/globe-alt
+            - name: Networking
+              icon: hero/wifi
+        - name: Tools & Learning
           items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
+            - name: PowerShell
+              icon: hero/command-line
+            - name: GitHub
               icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Microsoft Learn
+              icon: hero/academic-cap
+            - name: Documentation
+              icon: hero/book-open
     design:
       style: grid
       show_levels: false
       background:
         color:
-          light: "#f5f5f5"
-          dark: "#08080c"
+          light: "#f1f5f9"
+          dark: "#07111f"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Experience Timeline
+
   - block: resume-experience
     id: experience
     content:
-      title: Experience
+      title: "Experience"
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
+        - title: Onsite IT Support Technician
+          company: Managed Service Provider
           company_url: ''
           company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
+          location: Melbourne, Australia
+          date_start: '2022-10-01'
           date_end: ''
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
-          company_url: ''
-          company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
-          description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
-          company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
-          description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * Deliver onsite and remote IT support for a nonprofit client environment.
+            * Administer Microsoft 365 services including SharePoint, Exchange, Teams and endpoint management.
+            * Support users with varied technical confidence, from day-to-day troubleshooting through to device rollout and service coordination.
+            * Contribute to practical IT improvements involving Intune, collaboration tools, hardware and connectivity.
     design:
       columns: '1'
       background:
         color:
           light: "#ffffff"
-          dark: "#0d0d12"
+          dark: "#0b1525"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Recent Blog Posts
+
   - block: collection
     id: blog
     content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
+      title: "Technical Notes"
+      subtitle: "Labs, project reflections and troubleshooting lessons"
       text: ''
       filters:
         folders:
@@ -204,52 +173,46 @@ sections:
       columns: 3
       background:
         color:
-          light: "#f5f5f5"
-          dark: "#08080c"
+          light: "#f1f5f9"
+          dark: "#07111f"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # Contact Section
+
   - block: contact-info
     id: contact
     content:
-      title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      title: "Get In Touch"
+      subtitle: "IT support, Microsoft 365 and endpoint management"
       text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+        I am based in Melbourne and interested in connecting with people working across Microsoft 365, endpoint management and modern IT support.
+      email: hello@chriswait.ing
       autolink: true
     design:
       columns: '1'
       background:
         color:
           light: "#ffffff"
-          dark: "#0d0d12"
+          dark: "#0b1525"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
-  # CTA Card
+
   - block: cta-card
     content:
-      title: "Open to Opportunities"
+      title: "Projects built from practical IT experience"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
-        
-        Let's connect and discuss how I can help your team.
+        This site documents solutions, labs and lessons learned across **Microsoft 365**, **Intune**, **SharePoint**, endpoint management and user support.
       button:
-        text: 'Download Resume'
-        url: uploads/resume.pdf
-        new_tab: true
+        text: 'Browse Projects'
+        url: '/projects/'
+        new_tab: false
     design:
       card:
-        # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
         css_class: 'bg-gradient-to-br from-primary-200 via-primary-100 to-secondary-200 dark:from-primary-600 dark:via-primary-700 dark:to-secondary-700'
         text_color: dark
       background:
         color:
-          light: "#f5f5f5"
-          dark: "#08080c"
+          light: "#f1f5f9"
+          dark: "#07111f"
       spacing:
         padding: ["4rem", "0", "6rem", "0"]
 ---
