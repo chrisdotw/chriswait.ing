@@ -2,3 +2,5 @@
   translation: Certifications
 - id: experience
   translation: Professional History
+- id: education_icon
+  translation: hero/certificate
