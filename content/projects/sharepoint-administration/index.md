@@ -1,8 +1,9 @@
 ---
 title: "SharePoint Administration and Access Governance"
 date: 2026-02-01
-summary: "Supporting SharePoint collaboration while improving access clarity and permission management."
+summary: "Improving SharePoint access clarity, document collaboration and practical permissions management."
 tags:
+  - Ongoing
   - Microsoft 365
   - SharePoint
   - Governance
@@ -22,21 +23,25 @@ highlights:
   - "Practical governance improvements"
 ---
 
-Supporting SharePoint Online for a nonprofit environment involves balancing easy collaboration with clear, appropriate access.
+Ongoing SharePoint Online administration for a nonprofit environment where collaboration needs to remain simple while access stays appropriate and understandable.
 
-> Public case study note: internal site names, groups and permission details are deliberately excluded.
+> Public case study note: internal site names, groups and permission details have been deliberately excluded.
 
 ## Scope
 
-- Supporting users with SharePoint and OneDrive access issues
-- Reviewing and simplifying permissions where appropriate
-- Helping ensure restricted areas remain restricted to the correct groups
-- Assisting with document collaboration and site usability
+- Support users with SharePoint and OneDrive document access issues
+- Review and simplify permissions where appropriate
+- Help maintain appropriate access for restricted content areas
+- Improve user understanding of document storage and collaboration
 
 ## Approach
 
-Permission issues are often not solved by simply granting access. I focus on understanding what users genuinely need, how the site is intended to be used and whether group-based access provides a cleaner long-term solution.
+Permission issues are not always solved by granting more access. I first identify the user's actual requirement, review how the content is meant to be shared and favour manageable group-based access wherever possible.
 
-## Key Takeaway
+## Ongoing Value
 
-Good SharePoint administration is less about one-off fixes and more about maintaining understandable access structures that users and administrators can trust.
+Clearer permission structures reduce support friction, improve confidence in shared content and make future administration easier.
+
+## Key Lesson
+
+Effective SharePoint administration depends on governance that remains practical for real users, not only technically correct permissions.
