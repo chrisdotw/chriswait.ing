@@ -1,8 +1,9 @@
 ---
 title: "Microsoft Intune Device Management Rollout"
 date: 2025-05-01
-summary: "Introducing modern endpoint management controls for Windows devices in a nonprofit support environment."
+summary: "Supporting the rollout of consistent, secure Windows endpoint management through Microsoft Intune."
 tags:
+  - Completed
   - Microsoft 365
   - Intune
   - Endpoint Management
@@ -17,34 +18,38 @@ tech_stack:
 featured: true
 status: "Completed"
 role: "Endpoint Deployment and Support"
-duration: "Project rollout"
+duration: "Completed rollout"
 highlights:
-  - "Entra joined Windows endpoint management"
-  - "Compliance and security baseline implementation"
-  - "Practical end-user rollout support"
+  - "Entra joined Windows device support"
+  - "Compliance and security configuration"
+  - "End-user transition assistance"
 ---
 
-A modern endpoint management rollout completed for a nonprofit environment supporting both staff and remote users.
+A modern endpoint management rollout for a nonprofit environment supporting onsite and remote users.
 
 > Public case study note: organisation-specific information, identities and internal configurations have been intentionally generalised.
 
 ## Objective
 
-Move supported Windows devices towards consistent, manageable and secure configuration through Microsoft Intune and Entra ID.
+Improve the consistency and security of managed Windows devices through Microsoft Intune and Entra ID, while keeping the rollout manageable for users.
 
-## Areas Implemented
+## Areas Supported
 
-- Device enrolment and Entra joined endpoint support
-- Compliance requirements for Windows devices
-- BitLocker configuration and recovery-key management
-- Local administrator control using Windows LAPS
-- OneDrive configuration for user files and known folders
-- User assistance during migration and device transition
+- Enrolment and support for Entra joined Windows devices
+- Compliance policy rollout and device follow-up
+- BitLocker configuration and recovery key processes
+- Windows LAPS for local administrator control
+- OneDrive configuration and user file transition support
+- Hands-on assistance during device migration and rollout
 
 ## My Contribution
 
-I provided onsite support during rollout, assisted with affected devices and users, validated practical device behaviour, and helped bridge the gap between policy design and day-to-day user experience.
+I supported the rollout onsite, worked directly with users and devices during transition, helped validate expected policy behaviour and assisted with practical issues that surfaced once configuration met real-world use.
 
-## Lessons Learned
+## Outcome
 
-A successful endpoint rollout is not only about policy configuration. Communication, device readiness and user support are just as important as the technical settings.
+The project helped move Windows endpoints towards a more consistent management model with stronger security controls and clearer support processes.
+
+## Key Lesson
+
+Endpoint projects work best when technical configuration is paired with clear communication and hands-on user support.
