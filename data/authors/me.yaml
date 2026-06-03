@@ -11,12 +11,12 @@ name:
 status:
   icon: ""
 
-role: IT Support Technician | Microsoft 365 Administrator
+role: Microsoft 365 Administrator | IT Support Engineer
 
 email: hello@chriswait.ing
 
 bio: |
-  IT Support Technician based in Melbourne, working across Microsoft 365, endpoint management, SharePoint, Teams, Exchange and practical user-focused IT support. I use this site to document projects, labs and lessons learned while building deeper skills in modern workplace administration.
+  Melbourne-based IT professional working across Microsoft 365 administration, endpoint management, collaboration platforms and user-focused support. I use this site to document practical projects, lab work and lessons learned across modern workplace technology.
 
 affiliations:
   - name: Melbourne, Australia
@@ -29,22 +29,37 @@ links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/christopherwaiting/
     label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/chrisdotw
+    label: GitHub
 
 interests:
   - Microsoft 365 Administration
-  - Endpoint Management
-  - Intune and Windows Autopilot
+  - Endpoint Management and Intune
+  - Identity and Security
   - SharePoint and Collaboration
-  - IT Infrastructure and User Support
+  - Infrastructure and User Support
 
-education: []
+education:
+  - area: Certificate IV in Cyber Security
+    institution: RMIT University
+    date_end: 2022-12-01
+  - area: Microsoft 365 Certified - Fundamentals (MS-900)
+    institution: Microsoft
+    date_end: 2024-01-01
 
 experience:
-  - role: Onsite IT Support Technician
-    org: Managed Service Provider
+  - role: IT Support Engineer / Microsoft 365 Administrator
+    org: Managed Services Environment
     start: 2022-10-01
     summary: |
-      Provide onsite and remote IT support for a nonprofit client environment, including Microsoft 365 administration, endpoint support, collaboration tools, connectivity and user-focused technology assistance.
+      Primary onsite IT resource for a distributed nonprofit user environment, supporting Microsoft 365 administration, endpoint management, collaboration technology, connectivity and practical end-user support.
+  - role: Desktop Support Analyst
+    org: Enterprise Support Environment
+    start: 2022-05-01
+    end: 2022-10-01
+    summary: |
+      Provided enterprise desktop support across Windows endpoints, Microsoft applications and endpoint management tooling.
 
 skills:
   - name: Microsoft 365
@@ -53,17 +68,17 @@ skills:
         level: 4
       - label: SharePoint Online
         level: 4
+      - label: Microsoft Teams and Teams Phone
+        level: 4
       - label: Exchange Online
         level: 3
-      - label: Microsoft Teams
-        level: 4
-  - name: Endpoint Management
+  - name: Endpoint and Security
     items:
       - label: Microsoft Intune
         level: 4
-      - label: Windows 11
+      - label: Windows Endpoints
         level: 4
-      - label: Device Deployment
+      - label: Entra ID and Access Controls
         level: 4
       - label: Endpoint Troubleshooting
         level: 5
