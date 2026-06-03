@@ -46,6 +46,7 @@ education:
     end: 2026-06-01
   - degree: 'Microsoft 365 Certified: Fundamentals (MS-900)'
     institution: Microsoft
+    end: 2024-01-01
 
 experience:
   - role: IT Support Engineer / Microsoft 365 Administrator
