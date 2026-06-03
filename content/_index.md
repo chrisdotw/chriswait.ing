@@ -79,10 +79,9 @@ sections:
           items:
             - name: Microsoft 365 Administration
               icon: hero/cloud
-              level: great
+              level: expert
             - name: SharePoint Online
               icon: hero/document-text
-              level: advanced
             - name: Microsoft Teams & Teams Phone
               icon: hero/user-group
               level: advanced
