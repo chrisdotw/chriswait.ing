@@ -1,0 +1,4 @@
+/* Hide the proficiency text in tech-stack bars while retaining visual level bars. */
+.tech-stack-level-label {
+  display: none !important;
+}
