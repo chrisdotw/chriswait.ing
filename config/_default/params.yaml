@@ -287,3 +287,7 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+# Only add this if the CSS still isn't loading automatically
+plugins_css:
+  - custom
+  
