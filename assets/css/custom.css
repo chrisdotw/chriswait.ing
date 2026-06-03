@@ -1,0 +1,4 @@
+/* Keep visual proficiency bars without displaying the repeated text labels. */
+#skills .mt-2.w-full > span {
+  display: none !important;
+}

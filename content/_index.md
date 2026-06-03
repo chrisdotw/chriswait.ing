@@ -79,7 +79,7 @@ sections:
           items:
             - name: Microsoft 365 Administration
               icon: hero/cloud
-              level: advanced
+              level: expert
             - name: SharePoint Online
               icon: hero/document-text
               level: advanced
@@ -93,21 +93,21 @@ sections:
           items:
             - name: Microsoft Intune
               icon: hero/device-phone-mobile
-              level: advanced
+              level: expert
             - name: Windows 11 & Device Lifecycle
               icon: hero/computer-desktop
               level: advanced
             - name: Windows Autopilot
               icon: hero/rocket-launch
-              level: intermediate
+              level: expert
             - name: BitLocker & Windows LAPS
               icon: hero/shield-check
-              level: intermediate
+              level: advanced
         - name: Identity & Security
           items:
             - name: Entra ID
               icon: hero/key
-              level: advanced
+              level: expert
             - name: MFA & Conditional Access
               icon: hero/lock-closed
               level: intermediate
@@ -121,13 +121,13 @@ sections:
           items:
             - name: Networking & Connectivity
               icon: hero/wifi
-              level: intermediate
+              level: advanced
             - name: DNS & Domains
               icon: hero/globe-alt
               level: intermediate
             - name: PowerShell
               icon: hero/command-line
-              level: intermediate
+              level: beginner
             - name: Documentation & User Support
               icon: hero/book-open
               level: advanced
