@@ -41,17 +41,12 @@ interests:
   - Infrastructure and User Support
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
-    summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+  - degree: 'Microsoft 365 Certified: Endpoint Administrator Associate (MD-102)'
+    institution: Microsoft
+    end: 2026-06-01
+  - degree: 'Microsoft 365 Certified: Fundamentals (MS-900)'
+    institution: Microsoft
+
 experience:
   - role: IT Support Engineer / Microsoft 365 Administrator
     org: Managed Services Environment
