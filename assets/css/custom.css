@@ -1,9 +1,11 @@
 /* assets/css/custom.css */
 
-/* Target the tech-stack block specifically and hide the level text */
-.tech-stack-item .flex.justify-between.mb-1 span:last-child,
-.tech-stack-level-label,
-[data-level] span:last-child {
+/* Hide the skill level text (Expert, Advanced, etc.) */
+.tech-stack-item .mb-1 .capitalize {
   display: none !important;
-  visibility: hidden !important;
+}
+
+/* Optional: remove any extra space left by the hidden text */
+.tech-stack-item .flex.justify-between.mb-1 {
+  justify-content: flex-start !important;
 }
