@@ -79,6 +79,7 @@ sections:
           items:
             - name: Microsoft 365 Administration
               icon: hero/cloud
+              level: intermediate
             - name: SharePoint Online
               icon: hero/document-text
             - name: Microsoft Teams & Teams Phone
