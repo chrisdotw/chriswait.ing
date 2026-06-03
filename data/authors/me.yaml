@@ -96,9 +96,7 @@ awards:
   - title: 'Microsoft 365 Certified: Endpoint Administrator Associate (MD-102)'
     awarder: Microsoft
     date: '2026-06-01'
-    summary: |
-      Awarded June 2026.
+    
   - title: 'Microsoft 365 Certified: Fundamentals (MS-900)'
     awarder: Microsoft
-    summary: |
-      Achieved in 2024.
+    date: '2024-02-01'
