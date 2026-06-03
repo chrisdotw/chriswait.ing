@@ -26,9 +26,9 @@ links:
   - icon: at-symbol
     url: mailto:hello@chriswait.ing
     label: Email Me
-  - icon: brands/github
-    url: https://github.com/chrisdotw
-    label: GitHub
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/christopherwaiting/
+    label: LinkedIn
 
 interests:
   - Microsoft 365 Administration
