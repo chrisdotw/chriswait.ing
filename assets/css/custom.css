@@ -1,4 +1,9 @@
-/* Hide the proficiency text in tech-stack bars while retaining visual level bars. */
-.tech-stack-level-label {
+/* assets/css/custom.css */
+
+/* Target the tech-stack block specifically and hide the level text */
+.tech-stack-item .flex.justify-between.mb-1 span:last-child,
+.tech-stack-level-label,
+[data-level] span:last-child {
   display: none !important;
+  visibility: hidden !important;
 }
