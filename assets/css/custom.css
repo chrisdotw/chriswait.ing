@@ -1,0 +1,4 @@
+/* Keep the visual skill bars in the tech stack without repeating proficiency labels. */
+#skills .mt-2.w-full > span {
+  display: none !important;
+}
