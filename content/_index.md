@@ -79,58 +79,44 @@ sections:
           items:
             - name: Microsoft 365 Administration
               icon: hero/cloud
-              level: advanced
             - name: SharePoint Online
               icon: hero/document-text
-              level: advanced
             - name: Microsoft Teams & Teams Phone
               icon: hero/user-group
-              level: advanced
             - name: Exchange Online
               icon: hero/envelope
-              level: intermediate
+              
         - name: Endpoint Management
           items:
             - name: Microsoft Intune
               icon: hero/device-phone-mobile
-              level: advanced
             - name: Windows 11 & Device Lifecycle
               icon: hero/computer-desktop
-              level: advanced
             - name: Windows Autopilot
               icon: hero/rocket-launch
-              level: intermediate
             - name: BitLocker & Windows LAPS
               icon: hero/shield-check
-              level: intermediate
         - name: Identity & Security
           items:
             - name: Entra ID
               icon: hero/key
-              level: advanced
             - name: MFA & Conditional Access
               icon: hero/lock-closed
-              level: intermediate
             - name: Endpoint Security
               icon: hero/shield-check
-              level: intermediate
-            - name: SPF, DKIM & DMARC
+            - name: SDF, DKIM & DMARC
               icon: hero/envelope
-              level: intermediate
         - name: Infrastructure & Operations
           items:
             - name: Networking & Connectivity
               icon: hero/wifi
-              level: intermediate
             - name: DNS & Domains
               icon: hero/globe-alt
-              level: intermediate
             - name: PowerShell
               icon: hero/command-line
-              level: intermediate
             - name: Documentation & User Support
               icon: hero/book-open
-              level: advanced
+              
     design:
       style: grid
       show_levels: true
@@ -155,7 +141,7 @@ sections:
         padding: ["4rem", "0", "4rem", "0"]
 
   - block: resume-awards
-    id: certifications
+    id: awards
     content:
       username: me
       title: "Certifications"
