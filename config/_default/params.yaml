@@ -21,10 +21,10 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Microsoft 365 | Endpoint Management | IT Support"
     # Site meta description for search engines and social sharing
-    description: "MIT support and Microsoft 365 portfolio documenting endpoint management projects, practical infrastructure work and technical learning by Chris Waiting in Melbourne, Australia."
+    description: "Microsoft 365 and IT support portfolio documenting endpoint management projects, practical infrastructure work and technical learning by Chris Waiting in Melbourne, Australia."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "yourusername"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME

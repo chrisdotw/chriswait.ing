@@ -1,8 +1,9 @@
 ---
 title: "Outlook Classic Deployment via Intune"
 date: 2025-04-07
-summary: "Deploying Outlook Classic as an available Company Portal app for users who required the desktop client."
+summary: "Providing Outlook Classic through Company Portal using a simple Microsoft Intune deployment approach."
 tags:
+  - Completed
   - Microsoft 365
   - Intune
   - Application Deployment
@@ -17,25 +18,25 @@ status: "Completed"
 role: "Implementation and Testing"
 duration: "Completed rollout"
 highlights:
-  - "Microsoft 365 Apps deployment configured for Outlook only"
-  - "Available install through Company Portal"
-  - "Validated working installation approach"
+  - "Outlook-only Microsoft 365 Apps configuration"
+  - "Self-service installation through Company Portal"
+  - "Tested and validated deployment approach"
 ---
 
-A targeted application deployment project to provide Outlook Classic on managed Windows devices without unnecessarily installing additional Microsoft 365 desktop applications.
+A targeted application deployment completed for managed Windows devices requiring Outlook Classic.
 
 ## Requirement
 
-Some users required Outlook Classic on managed devices while maintaining a simple, user-friendly installation process.
+Users needed access to the Outlook desktop client through a straightforward installation process on Intune-managed devices.
 
 ## Solution
 
-Configured **Microsoft 365 Apps for Enterprise** through Intune with Outlook selected as the required application component, then assigned it as an available application through Company Portal.
+Configured **Microsoft 365 Apps for Enterprise** through Intune with Outlook selected as the required application, then assigned it as an available installation through Company Portal.
 
 ## Outcome
 
-The approach provided a reliable self-service installation experience and gave users access to the required Outlook desktop client using an Intune-managed method.
+The deployment provided a supported and user-friendly self-service installation option without adding unnecessary packaging complexity.
 
-## Lessons Learned
+## Key Lesson
 
-Where a supported first-party Intune deployment option meets the requirement, it is preferable to overcomplicating packaging or scripting.
+A simple first-party deployment method is often the strongest option when it directly meets the requirement and is easy to support.

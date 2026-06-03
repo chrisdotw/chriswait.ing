@@ -1,7 +1,7 @@
 ---
 title: "Why I Built chriswait.ing"
 date: 2026-06-03
-summary: "A place to document Microsoft 365 labs, endpoint projects and practical IT lessons."
+summary: "A portfolio and technical notebook for Microsoft 365 projects, endpoint management and practical IT learning."
 tags:
   - Portfolio
   - Microsoft 365
@@ -9,18 +9,18 @@ tags:
 featured: true
 ---
 
-I created `chriswait.ing` as a practical portfolio and technical notebook.
+I created `chriswait.ing` as a personal portfolio and technical notebook for the work I enjoy most: Microsoft 365 administration, endpoint management and solving practical technology problems.
 
-My day-to-day work involves user support, Microsoft 365, endpoints, SharePoint, Teams, device deployment and solving the types of issues that do not always fit neatly into a certification module.
+My day-to-day experience includes supporting users, administering cloud services, working with devices and collaboration tools, and contributing to projects that improve how people use technology.
 
 ## What I Will Document
 
-- Microsoft 365 lab setup and configuration
+- Microsoft 365 lab setup and administration
 - Intune and endpoint management testing
 - SharePoint and Teams administration lessons
-- Technical troubleshooting write-ups
-- Certification learning notes
+- Troubleshooting notes and practical solutions
+- Certification and ongoing learning progress
 
-## The Goal
+## Why It Matters
 
-The goal is simple: turn practical work and continued learning into useful documentation, while building a public record of the skills I am developing.
+A technical portfolio should show more than a list of tools. This site gives me a place to document decisions, outcomes and lessons learned while continuing to develop my skills across the modern workplace stack.
