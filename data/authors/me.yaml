@@ -40,52 +40,65 @@ interests:
   - SharePoint and Collaboration
   - Infrastructure and User Support
 
-education:
-  - area: Certificate IV in Cyber Security
-    institution: RMIT University
-    date_end: 2022-12-01
-  - area: Microsoft 365 Certified - Fundamentals (MS-900)
-    institution: Microsoft
-    date_end: 2024-01-01
+education: []
 
 experience:
   - role: IT Support Engineer / Microsoft 365 Administrator
     org: Managed Services Environment
     start: 2022-10-01
     summary: |
-      Primary onsite IT resource for a distributed nonprofit user environment, supporting Microsoft 365 administration, endpoint management, collaboration technology, connectivity and practical end-user support.
+      Primary onsite IT resource supporting a distributed nonprofit user environment across day-to-day support, administration and technology projects.
+
+      - Administer Microsoft 365 services including Exchange Online, SharePoint Online, Teams, Teams Phone, Intune and Entra ID.
+      - Support a hybrid environment spanning cloud services, endpoints, onsite infrastructure and network connectivity.
+      - Contribute to endpoint management initiatives including Intune deployment, compliance policies, BitLocker, Windows LAPS and device lifecycle management.
+      - Support meeting room technology, resource accounts, call queues and auto attendants.
+      - Coordinate with vendors and remote technical teams, produce documentation and provide practical guidance to end users.
   - role: Desktop Support Analyst
     org: Enterprise Support Environment
     start: 2022-05-01
     end: 2022-10-01
     summary: |
-      Provided enterprise desktop support across Windows endpoints, Microsoft applications and endpoint management tooling.
+      Provided Level 1 and Level 2 desktop support within a large enterprise environment.
+
+      - Supported Windows endpoints and Microsoft applications.
+      - Worked with endpoint management and incident management tooling.
+      - Assisted users with day-to-day desktop issues in a structured support environment.
 
 skills:
   - name: Microsoft 365
     items:
       - label: Microsoft 365 Administration
-        level: 4
+        level: advanced
       - label: SharePoint Online
-        level: 4
+        level: advanced
       - label: Microsoft Teams and Teams Phone
-        level: 4
+        level: advanced
       - label: Exchange Online
-        level: 3
+        level: intermediate
   - name: Endpoint and Security
     items:
       - label: Microsoft Intune
-        level: 4
+        level: advanced
       - label: Windows Endpoints
-        level: 4
+        level: advanced
       - label: Entra ID and Access Controls
-        level: 4
+        level: intermediate
       - label: Endpoint Troubleshooting
-        level: 5
+        level: expert
 
 languages:
   - name: English
-    level: 5
+    level: expert
     label: Native
 
-awards: []
+awards:
+  - title: 'Microsoft 365 Certified: Endpoint Administrator Associate (MD-102)'
+    awarder: Microsoft
+    date: '2026-06-01'
+    summary: |
+      Awarded June 2026.
+  - title: 'Microsoft 365 Certified: Fundamentals (MS-900)'
+    awarder: Microsoft
+    summary: |
+      Achieved in 2024.
