@@ -88,7 +88,7 @@ sections:
               level: advanced
             - name: Exchange Online
               icon: hero/envelope
-              level: intermediate
+              level: advanced
         - name: Endpoint Management
           items:
             - name: Microsoft Intune
@@ -110,7 +110,7 @@ sections:
               level: expert
             - name: MFA & Conditional Access
               icon: hero/lock-closed
-              level: intermediate
+              level: advanced
             - name: Endpoint Security
               icon: hero/shield-check
               level: intermediate
