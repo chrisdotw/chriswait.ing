@@ -17,11 +17,3 @@
   /* Optional: slightly adjust weight if needed */
   font-weight: 700;
 }
-
-/* 2. Fix the footer if you want 'chriswait.ing' there too */
-/* If your footer uses the name, it will now just say 'chriswait'. 
-   We can add the suffix back there as well: */
-footer a.text-xl::after {
-  content: '.ing';
-  color: var(--color-primary-400, #818cf8);
-}
