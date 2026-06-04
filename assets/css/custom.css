@@ -1,19 +1,5 @@
 
 
-/* Target the brand name in the navbar */
-.navbar-brand {
-  color: white !important;
-}
-
-/* We can't target "just the end" of a text string with pure CSS, 
-   so we use a trick to hide the original and replace it with styled text,
-   OR we can use a small layout override. */
-
-/* RECOMMENDED: This CSS targets the brand link and apples the color shift */
-.navbar-brand {
-  font-weight: 700;
-}
-
 
 /* Hide the skill level text (Expert, Advanced, etc.) */
 .tech-stack-item .mb-1 .capitalize {
