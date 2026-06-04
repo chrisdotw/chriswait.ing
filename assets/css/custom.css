@@ -8,21 +8,20 @@
   justify-content: flex-start !important;
 }
 
-/* 1. In the navbar, the span code is visible as text. 
-   We target the navbar specifically to clean it up. */
-.navbar-brand span.brand-suffix {
-  display: none; /* Hide the literal text <span> if it shows up */
-}
-
-/* 2. Add the colored .ing back in properly */
+/* 1. Target the site name in the navbar */
 .navbar-brand::after {
   content: '.ing';
-  /* This pulls from HugoBlox's primary-400 color (approx #818cf8 for Indigo) */
-  color: #818cf8; 
+  /* This uses the HugoBlox theme variable instead of a hardcoded hex */
+  color: var(--color-primary-400, #818cf8); 
+  
+  /* Optional: slightly adjust weight if needed */
+  font-weight: 700;
 }
 
-/* 3. Ensure the footer (where the span WORKS) still looks good */
-footer .brand-suffix {
-  display: inline;
-  color: #818cf8;
+/* 2. Fix the footer if you want 'chriswait.ing' there too */
+/* If your footer uses the name, it will now just say 'chriswait'. 
+   We can add the suffix back there as well: */
+footer a.text-xl::after {
+  content: '.ing';
+  color: var(--color-primary-400, #818cf8);
 }
