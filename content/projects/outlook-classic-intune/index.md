@@ -1,42 +1,55 @@
 ---
-title: "Outlook Classic Deployment via Intune"
-date: 2025-04-07
-summary: "Providing Outlook Classic through Company Portal using a simple Microsoft Intune deployment approach."
+title: "Windows Autopilot Deployment and Device Standardisation"
+date: 2025-08-01
+summary: "Designing a modern Windows deployment approach using Entra ID, Intune and Autopilot-ready device configuration."
 tags:
   - Completed
   - Microsoft 365
   - Intune
-  - Application Deployment
-  - Windows
+  - Windows Autopilot
+  - Endpoint Management
 tech_stack:
   - Microsoft Intune
-  - Microsoft 365 Apps
-  - Company Portal
+  - Windows Autopilot
+  - Entra ID
   - Windows 11
+  - Compliance Policies
+  - BitLocker
 featured: true
 status: "Completed"
-role: "Implementation and Testing"
-duration: "Completed rollout"
+role: "Endpoint Deployment and Support"
+duration: "Completed implementation"
 highlights:
-  - "Outlook-only Microsoft 365 Apps configuration"
-  - "Self-service installation through Company Portal"
-  - "Tested and validated deployment approach"
+  - "Standardised Windows device deployment"
+  - "Autopilot-ready endpoint configuration"
+  - "Practical handover and support documentation"
 ---
 
-A targeted application deployment completed for managed Windows devices requiring Outlook Classic.
+A modern endpoint deployment project focused on creating a more consistent Windows setup experience for new and reissued devices.
 
-## Requirement
+> Public case study note: organisation-specific details, device names and internal configuration values have been intentionally generalised.
 
-Users needed access to the Outlook desktop client through a straightforward installation process on Intune-managed devices.
+## Objective
 
-## Solution
+Reduce manual setup effort and improve device consistency by aligning Windows 11 endpoints with Microsoft Intune, Entra ID and Autopilot-style deployment practices.
 
-Configured **Microsoft 365 Apps for Enterprise** through Intune with Outlook selected as the required application, then assigned it as an available installation through Company Portal.
+## Areas Supported
+
+- Entra joined Windows device setup and validation
+- Intune enrolment and configuration profile testing
+- Compliance policy behaviour and device readiness checks
+- BitLocker and endpoint security configuration support
+- Standard app availability and first sign-in experience review
+- Documentation for repeatable deployment and support handover
+
+## My Contribution
+
+I helped validate the practical deployment process from the support side, tested device behaviour after enrolment, checked user-impacting settings and documented issues that needed to be corrected before the approach could be repeated confidently.
 
 ## Outcome
 
-The deployment provided a supported and user-friendly self-service installation option without adding unnecessary packaging complexity.
+The work improved consistency across Windows endpoints and created a clearer deployment path for devices that need to be prepared, reissued or supported with less manual configuration.
 
 ## Key Lesson
 
-A simple first-party deployment method is often the strongest option when it directly meets the requirement and is easy to support.
+Autopilot and Intune projects are not only about the enrolment profile. The real value comes from standardising the entire device experience, including security, apps, user sign-in, support notes and recovery processes.
